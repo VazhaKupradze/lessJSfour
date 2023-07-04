@@ -107,6 +107,18 @@ console.log(newArrayEight);
 // ----9---- //
 
 
+let words = ['Madrid', 'Rome', 'Milan', 'Berlin'];
+
+let wordsResult = words.filter(item => {
+    if (item.includes('m') || item.includes('M')) {
+        return true;
+    }
+    return false;
+})
+
+console.log(wordsResult);
+
+
 // ----10---- //
 
 
